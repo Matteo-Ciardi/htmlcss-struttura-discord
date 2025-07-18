@@ -33,7 +33,6 @@ header {
     /* DEBUG */
     height: 50px;
     background-color: #daa51e;
-    font-size: 30px;
 }
 
 #logo {
@@ -58,6 +57,14 @@ header {
     display: flex;
     justify-content: flex-end;
     width: 20%;
+}
+
+/* .login-link { */
+/* DEBUG */
+background-color: white;
+padding: 5px 10px;
+border-radius: 30px;
+margin-right: 10px;
 }
 
 /* Header bottom */
