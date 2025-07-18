@@ -5,6 +5,10 @@
 }
 
 /* Generics */
+button {
+    font-size: 20px;
+    padding: 5px 10px;
+}
 
 /* Header top */
 .header-top {
@@ -107,18 +111,21 @@ footer {
 }
 
 .footer-top {
+    border-bottom: 1px solid white;
+}
+
+.footer-row-container {
     display: flex;
     justify-content: center;
-    height: 600px;
-    width: 65%;
     margin: 0px auto;
+    width: 65%;
 }
 
 .contacts {
     width: 20%;
     height: 400px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     /* DEBUG */
     background-color: #f08180;
 }
@@ -137,6 +144,13 @@ footer {
 }
 
 /* Footer bottom */
-.footer-bttom {
-    border-top: 1px solid white;
+.policy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 0px;
+    /* DEBUG */
+    background-color: cyan;
 }
