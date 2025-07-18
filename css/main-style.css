@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: #00018b;
+    height: 580px;
+}
+
+/* Header top */
+.header-top {
+    display: flex;
+    background-color: #add8e7;
+    height: 80px;
+}
+
+.navbar {
+    display: flex;
+}
