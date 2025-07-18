@@ -6,31 +6,43 @@
 
 /* Header top */
 .header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* DEBUG */
     height: 80px;
     background-color: #add8e7;
 }
 
-#logo {
-    width: 100px;
-    /* DEBUG */
-    border: 1px solid black;
-}
-
 #main-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 65%;
     /* DEBUG */
     background-color: #daa51e;
+    font-size: 30px;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 200px;
+    /* DEBUG */
+}
+
+#nav-menu {
+    display: flex;
+    justify-content: center;
 }
 
 #main-nav ul {
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
     width: 500px;
-    display: flex;
-    justify-content: center;
     /* DEBUG */
-    border: 1px solid black;
 }
 
 #main-nav ul a {
@@ -41,14 +53,23 @@
 #login {
     display: flex;
     justify-content: flex-end;
-    width: 100px;
+    width: 200px;
     /* DEBUG */
-    border: 1px solid black;
 }
 
 /* Header bottom */
 .header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* DEBUG */
     background-color: #00018b;
     height: 500px;
+}
+
+#jumbotron {
+    /* DEBUG */
+    background-color: #ef82ed;
+    height: 400px;
+    width: 50%;
 }
