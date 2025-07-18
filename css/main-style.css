@@ -28,14 +28,14 @@
 #logo {
     display: flex;
     justify-content: flex-start;
-    width: 200px;
+    width: 20%;
 }
 
 #main-nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    width: 500px;
+    width: 60%;
 }
 
 #main-nav ul a {
@@ -46,7 +46,7 @@
 #login {
     display: flex;
     justify-content: flex-end;
-    width: 200px;
+    width: 20%;
 }
 
 /* Header bottom */
