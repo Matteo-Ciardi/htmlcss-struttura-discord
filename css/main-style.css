@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Generics */
+
 /* Header top */
 .header-top {
     display: flex;
@@ -90,4 +92,17 @@
     width: 40%;
     /* DEBUG */
     background-color: #ffc0ca;
+}
+
+.mobile-apps {
+    height: 800px;
+    /* DEBUG */
+    background-color: green;
+}
+
+/* Footer top */
+.footer-top {
+    height: 600px;
+    /* DEBUG */
+    background-color: #23272a;
 }
