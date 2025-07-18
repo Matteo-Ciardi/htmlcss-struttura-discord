@@ -29,12 +29,6 @@
     display: flex;
     justify-content: flex-start;
     width: 200px;
-    /* DEBUG */
-}
-
-#nav-menu {
-    display: flex;
-    justify-content: center;
 }
 
 #main-nav ul {
@@ -42,7 +36,6 @@
     justify-content: space-around;
     list-style-type: none;
     width: 500px;
-    /* DEBUG */
 }
 
 #main-nav ul a {
@@ -54,7 +47,6 @@
     display: flex;
     justify-content: flex-end;
     width: 200px;
-    /* DEBUG */
 }
 
 /* Header bottom */
@@ -68,8 +60,8 @@
 }
 
 #jumbotron {
-    /* DEBUG */
-    background-color: #ef82ed;
     height: 400px;
     width: 50%;
+    /* DEBUG */
+    background-color: #ef82ed;
 }
