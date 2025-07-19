@@ -80,7 +80,6 @@ header {
     display: flex;
     justify-content: center;
     padding: 20px 0;
-    /* DEBUG */
 }
 
 .cr-grey {
@@ -130,19 +129,21 @@ footer {
     margin: 0px auto;
     width: 65%;
     padding: 10px 0px 40px;
+    /* DEBUG */
     height: 450px;
 }
 
-.contacts {
+.social {
     width: 20%;
     /* DEBUG */
     height: 100%;
     background-color: #f08180;
 }
 
-.cnt-blue {
+.cnt-all {
     display: flex;
     width: 80%;
+    /* DEBUG */
     background-color: #20b3aa;
 }
 
@@ -164,6 +165,7 @@ footer {
 }
 
 .ft-rw-cnt-bottom {
-    padding: 10px 0px;
+    padding: 20px 0px 0px;
+    /* DEBUG */
     height: 80px;
 }
