@@ -20,8 +20,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15PX 0;
     /* DEBUG */
-    height: 80px;
     background-color: #add8e7;
 }
 
@@ -30,14 +30,13 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 65%;
+    padding: 15px 0;
     /* DEBUG */
-    height: 50px;
     background-color: #daa51e;
 }
 
 #logo {
     display: flex;
-    justify-content: flex-start;
     width: 20%;
 }
 
@@ -64,8 +63,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* DEBUG */
-    height: 500px;
+    padding: 50px 0;
 }
 
 #jumbotron {
@@ -162,6 +160,11 @@ footer {
     width: 100%;
     /* DEBUG */
     background-color: cyan;
+}
+
+.logo-bottom {
+    /* DEBUG */
+    background-color: #fdb5be;
 }
 
 .ft-rw-cnt-bottom {
